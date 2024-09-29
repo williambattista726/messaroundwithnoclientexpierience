@@ -1,21 +1,21 @@
 .gradle
-**/build/
-!src/**/build/
-
-# Ignore Gradle GUI config
-gradle-app.setting
-
-# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
-!gradle-wrapper.jar
-
-# Avoid ignore Gradle wrappper properties
-!gradle-wrapper.properties
-
-# Cache of project
-.gradletasknamecache
-
-# Eclipse Gradle plugin generated files
-# Eclipse Core
-.project
-# JDT-specific (Eclipse Java Development Tools)
+.settings
 .classpath
+.project
+build
+bin
+proxyServer/bin
+proxyServer/rundir
+desktopRuntime/_eagstorage*
+desktopRuntime/eclipseProject/bin*
+desktopRuntime/hs_err_*
+desktopRuntime/crash-reports/*
+desktopRuntime/options.txt
+desktopRuntime/_eagstorage*
+desktopRuntime/filesystem/*
+desktopRuntime/downloads/*
+desktopRuntime/screenshots/*
+javascript/assets.epk
+javascript/classes.js
+javascript/classes.js.map
+javascript/Starlike_Client_Offline.html
